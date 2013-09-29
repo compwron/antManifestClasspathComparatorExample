@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project name="comparing manifest to ant build" basedir=".">
+    <target name="compile">
+        <javac destdir="doesn't matter" debug="yes">
+            <src path="doesn't matter"/>
+            <src path="doesn't matter"/>
+            <classpath>
+                <pathelement location="lib/junit-4.10.jar"/>
+                <pathelement location="lib/mockito-all-1.9.5.jar"/>
+            </classpath>
+        </javac>
+    </target>
+</project>
